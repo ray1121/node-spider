@@ -1,0 +1,19 @@
+{
+  "name": "spider-ti",
+  "version": "1.0.0",
+  "description": "spider by puppteer",
+  "main": "noinsql2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "spider"
+  ],
+  "author": "ray",
+  "license": "ISC",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "puppeteer": "^1.2.0",
+    "winston": "^2.4.1"
+  }
+}
