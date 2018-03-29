@@ -92,7 +92,7 @@ let main = async () => {
         ignoreHTTPSErrors: true, //忽略https错误
         headless: true
     })
-    for (let index = Math.ceil(noinsql2.length / 2); index < noinsql2.length; index++) {
+    for (let index = 0; index < noinsql2.length; index++) {
         try {
             await spiderForD5(browser, noinsql2[index])
         } catch (error) {

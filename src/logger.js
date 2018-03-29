@@ -48,7 +48,7 @@ winston.loggers.add('nomacth',{
 })
 winston.loggers.add('results',{
     file:{
-        filename:appBasePath+'/dist/'+'results.txt',
+        filename:appBasePath+'/dist/'+'results2.txt',
         level: 'info',
         timestamp:false
     }
