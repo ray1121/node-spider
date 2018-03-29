@@ -51,11 +51,11 @@ let main = async () => {
     })
     let len = icname.length
     for (let index = 0; index < len; index++) {
-        // try {
+        try {
             await spiderForD5(browser, icname[index])
-        // } catch (error) {
-        //     logger.nohandle(`${icname[index]}`)
-        // }
+        } catch (error) {
+            logger.nohandle(`${icname[index]}`)
+        }
         
     }
     console.log('TMD结束了')
